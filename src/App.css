@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #58B2DC;
+  background-color: #322F3B;
 }
 
 .App-logo {
@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
