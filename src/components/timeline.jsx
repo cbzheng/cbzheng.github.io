@@ -28,7 +28,7 @@ const myTimeLine = [
     },
     {
         timeSpan: "2016.9-2020.6",
-        title: "Undergraduate Student in Computer Science and Technology",
+        title: "Undergraduate Student in CS",
         institute: "Chu Kochen Honors College, Zhejiang University",
         description: "",
         logo: zju
@@ -40,9 +40,9 @@ export default function Timeline() {
     let timelineInfo = []
     myTimeLine.forEach(slot => {
         timelineInfo.push(
-            <div style={{display: 'flex', flexDirection: 'row', color:'black', height: "12vh", fontSize: '16px', }}>
+            <div style={{display: 'flex', flexDirection: 'row', color:'black', height: "100%", fontSize: '16px', }}>
                 <div style={{color: 'gray', width: "20vw", borderRight: "thick solid #322F3B"}}>{slot.timeSpan}</div>
-                <div style={{width: '60vw', marginLeft: "5%"}}>
+                <div style={{width: '60vw', paddingLeft: "3vw", paddingBottom: '3%'}}>
                     <span style={{fontSize: '18px'}}><b>{slot.title}</b></span> <br/>
                     <span>{slot.institute}</span> <br />
                     <span  style={{color: 'gray'}}>{slot.description}</span>
@@ -63,9 +63,9 @@ export default function Timeline() {
             textAlign: 'left',
             fontSize: 30,
             color: 'black',
-            marginTop: '3%',
-            marginLeft: '24%',
-            marginRight: '24%'
+            marginTop: '3vw',
+            paddingLeft: '24vw',
+            paddingRight: '24vw'
         }}>
             <b>Experience</b>
             <div style={{marginTop: "5vh"}}>
